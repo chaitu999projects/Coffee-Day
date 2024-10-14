@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website | Chaitu999projects</title>
+    <link rel="icon" type="img/gallery-1.jpeg"  href="img/ch.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">Coffee</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars cancle-icon"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Welcome!</h2>
+            <h3 class="subtitle">Make your day great with our special coffee!</h3>
+            <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <!-- <div class="hero-image-wrapper">
+            <img src="images/coffee-hero-section.png" alt="Coffee" class="hero-image" />
+          </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- ICONS SECTION  -->
+       <section class="different-coffee">
+        <div class="icons-container">
+            <div class="coffee-icons"> 
+                <i class="fa-solid fa-mug-hot coffee-icon"></i>
+                <p class="coffee-title">Hot Coffee</p>
+            </div>
+            <div class="coffee-icons">
+                <i class="fa-solid fa-snowflake coffee-icon"></i>
+                <p class="coffee-title">Cold Coffee</p>
+            </div>
+            <div class="coffee-icons">
+                <i class="fa-solid fa-mug-saucer coffee-icon" ></i>
+                <p class="coffee-title">Cup Coffee</p>
+            </div>
+            <div class="coffee-icons">
+                <i class="fa-solid fa-hotdog coffee-icon"></i>
+                <p class="coffee-title">Desert</p>
+            </div>
+        </div>
+            
+       </section>
+       <!-- OUE SPECIAL COFFEE -->
+        <section class="special section bg-light">
+            <h1 class="heading text text-center text-dark">OUR SPECIAL COFFEE </h1>
+            <div class="container mt-4 mb-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card rounded-3 custom-card">
+                            <img src="img/gallery-1.jpeg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cold Coffee</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                        <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="img/gallery-2.jpeg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Coffee</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order" >
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="img/gallery-3.jpeg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Hot Coffee</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="img/gallery-4.jpeg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Strong Coffee</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- OUE SPECIAL DESSERT -->
+        <section class="special section bg-light">
+            <h1 class="heading text text-center text-dark">OUR SPECIAL DESSERTS </h1>
+            <div class="container mt-4 mb-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card rounded-3 custom-card">
+                            <img src="images/dessert-1.jpg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                        <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="images/dessert-2.jpg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order" >
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="images/dessert-3.jpg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-2"> 
+                        <div class="card rounded-3 custom-card">
+                            <img src="images/dessert-4.jpg" class="card-img-top special-imgs" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text">A delicious coffee drink made with espresso.</p>
+                                    <div class="d-flex flex-row justify-content-between price-and-order">
+                                        <p class="card-text mt-3">Price: $5.99</p>
+                                    <a href="#" class="order-btn">Order Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Checket Out Section-->
+         <section class="check-out">
+            <div class="check-out-container d-flex flex-row justify-content-between">
+                <div class="">
+                    <img src="img/check-2.png" alt="" class="w-100 check-png d-none d-sm-none d-md-block">
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h2 class="check-out-title text-center text-sm-center text-md-start">Check out our best <br> coffee betans</h2> <br>
+                    <button class="order-btn rounded-pill">Explore our products</button>
+                </div>
+                <div class="">
+                    <img src="img/check-4.png" alt="" class="w-100 check-png d-none d-sm-none d-md-block">
+                </div>
+            </div>
+         </section>
+         <!-- About section -->
+      <!-- <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="img/about-img.jpeg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At Coffee House in Berndorf, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Menu section -->
+      <!-- <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Hot Beverages</h3>
+                <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Cold Beverages</h3>
+                <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/refreshment.png" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Refreshment</h3>
+                <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/special-combo.png" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Special Combos</h3>
+                <p class="text">Your favorite eating and drinking combations.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/desserts.png" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dessert</h3>
+                <p class="text">Satiate your palate and take you on a culinary treat.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/burger-frenchfries.png" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Burger & French Fries</h3>
+                <p class="text">Quick bites to satisfy your small size hunger.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <div>
+            <h4 class="small-sub-hed"> Come and Join</h4>
+           <h2 class="section-title">OUR HAPPY CUSTOMERS</h2>
+        </div>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide shadow-md">
+                  <div class="d-flex flex-row justify-content-between pb-3">
+                    <div>
+                        <img src="images/user-1.jpeg" alt="" class="user-image">
+                        <span>John Dempert</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                  </div>
+                  <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                </li>
+                <li class="testimonial swiper-slide shadow-md">
+                    <div class="d-flex flex-row justify-content-between pb-3">
+                      <div>
+                          <img src="images/user-1.jpeg" alt="" class="user-image">
+                          <span>John Dempert</span>
+                      </div>
+                      <div>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                  </li>
+                  <li class="testimonial swiper-slide shadow-md">
+                    <div class="d-flex flex-row justify-content-between pb-3">
+                      <div>
+                          <img src="images/user-2.jpeg" alt="" class="user-image">
+                          <span>Kamal Kattan</span>
+                      </div>
+                      <div>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-regular fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                  </li>
+                  <li class="testimonial swiper-slide shadow-md">
+                    <div class="d-flex flex-row justify-content-between pb-3">
+                      <div>
+                          <img src="images/user-3.jpeg" alt="" class="user-image">
+                          <span>James Wilson</span>
+                      </div>
+                      <div>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-regular fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                  </li>
+                  <li class="testimonial swiper-slide shadow-md">
+                    <div class="d-flex flex-row justify-content-between pb-3">
+                      <div>
+                          <img src="images/user-4.jpeg" alt="" class="user-image">
+                          <span>Anthony</span>
+                      </div>
+                      <div>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                  </li>
+                  <li class="testimonial swiper-slide shadow-md">
+                    <div class="d-flex flex-row justify-content-between pb-3">
+                      <div>
+                          <img src="images/user-5.jpeg" alt="" class="user-image">
+                          <span>Emily Harrist</span>
+                      </div>
+                      <div>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-regular fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                  </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Jion Section -->
+        <section class="join-section">
+            <div class="align-items-center d-flex flex-row justify-content-between">
+                <!-- Coffee beans image on the left -->
+                <div class="d-none d-md-block">
+                    <img src="images/cute-1.png" class="img-fluid img-bean" alt="Coffee Beans">
+                </div>
+    
+                <!-- Subscription form in the center -->
+                <div class="text-center join-content">
+                    <h2 class="fw-bold">Join in and get 15% Off!</h2>
+                    <p  class="pr-3 pl-3">Subscribe to our newsletter and get 15% off discount code.</p>
+                    <form class="d-flex justify-content-center">
+                        <input type="email" class="form-control me-2 rounded-pill" placeholder="Email address" required style="max-width: 300px;">
+                        <button type="submit" class="btn btn-dark ml-2 rounded-pill">Subscribe</button>
+                    </form>
+                </div>
+    
+                <!-- Coffee beans image on the right -->
+                <div class="d-none d-md-block">
+                    <img src="images/bean.png" class="img-fluid img-bean" alt="Coffee Beans">
+                </div>
+            </div>
+        </section>
+    
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/dessert-5.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="img/gallery-2.jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="img/gallery-3.jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/dessert-6.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="img/gallery-5.jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/dessert-7.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Ongle,Andhra Pradesh, India, 523280</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>mulagani.chaitanya@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+91 80197163330</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <a href="https://chaitanya-portfolio-ch.netlify.app/" class="text-dark">Portfolio</a>
+            </li>
+          </ul>
+
+          <form action="" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your name" class="form-input" required />
+            <input type="email" name="email" placeholder="Your email" class="form-input" required />
+            <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+        </form>
+        
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h3 class="text-white">COFFEE</h3>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h3 class="text-white">PRIVECY</h3>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#" class="text-light">Terms and conditions</a></li>
+                        <li><a href="#" class="text-light">Privecy Policy</a></li>
+                        <li><a href="#" class="text-light">Contact</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h4 class="text-white">SERVICES</h4>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#" class="text-light mb-2">Shop</a></li>
+                        <li><a href="#" class="text-light mb-2">Order & Replace</a></li>
+                        <li><a href="#" class="text-light mb-2">Menu</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h4 class="text-light mb-2">ABOUT US</h4>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#" class="text-light mb-2">Finding better</a></li>
+                        <li><a href="#" class="text-light mb-2">About Us</a></li>
+                        <li><a href="#" class="text-light mb-2">Our story</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h4 class="text-light mb-2">INFORMATION</h4>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#" class="text-light mb-2">Set your products</a></li>
+                        <li><a href="#" class="text-light mb-2">FAQ</a></li>
+                        <li><a href="#" class="text-light mb-2">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-2 mb-3">
+                    <h4 class="text-light mb-2">SOCIAL MEDIA</h4>
+                    <div>
+                        <a href="https://x.com/chaitu908298502?t=ECXsYuGXQLq3feTNoSIWtw&s=08" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100065310305699"><i class="fa-brands fa-facebook m-1 social-link"></i></a>
+                        <a href="https://www.linkedin.com/in/chaitanyamulagani"><i class="fa-brands fa-linkedin m-1 social-link"></i></a>
+                        <i class="fa-brands fa-instagram m-1 social-link"></i>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
